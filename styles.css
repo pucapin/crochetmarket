@@ -1,0 +1,104 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    height: 100vh;
+    width: 100vw;
+    background-color: #FFE8D0;
+}
+
+nav {
+    height: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hero {
+    width: 100%;
+    height: 80%;
+    background-image: url(pics/crochet\ hero.jpg);
+    background-size: cover ;
+    background-position: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#viejita {
+    position: absolute;
+    bottom: 12.5%;
+    right: 0%;
+    width: 45%;
+    height: auto;
+}
+.whitesq {
+    width: 43%;
+    height: 47%;
+    background-color: rgba(247, 248, 250, 0.80);
+    backdrop-filter: blur(12px);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+#title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 20px;
+}
+
+#btn-start {
+    background-color: #F37171;
+    border-radius: 30px;
+    width: 200px;
+    margin-top: 30px;
+    height: 50px;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    
+}
+
+#desc {
+    margin-bottom: 4px;
+    margin-top: 0;
+}
+
+.carr {
+    width: 90%;
+    height: 90%;
+    background: rgb(255,190,190);
+    background: linear-gradient(90deg, rgba(255,190,190,1) 37%, rgba(255,164,99,1) 73%);
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.sec2 {
+    margin-top: 5%;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+#call {
+    width: 26%;
+    margin: 75px;
+    color: #D32840;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 34px;
+
+    
+
+
+}
