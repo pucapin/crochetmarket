@@ -98,7 +98,68 @@ nav {
     font-style: normal;
     font-size: 34px;
 
-    
+}
 
+.sec3 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(pics/picnic.png);
+    background-repeat: repeat;
+    width: 100%;
+    height: 50%;
+    background-size: 50%;
+    opacity: 70%;
+    margin-top: 70px;
+}
 
+.crip {
+    width: 40%;
+    height: 86%;
+    background-color: #FFBB9D;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 5%;
+}
+
+#tit {
+    margin-top: 5%;
+    background-color: #f76b7d;
+    color: white;
+    border-radius: 30px;
+    padding: 18px;
+}
+
+#desk {
+    width: 53%;
+    text-align: center;
+}
+
+.get {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.card {
+    height: 70%;
+    width: 35%;
+    border: 7px, solid, #f76b7d;
+    border-radius: 40px;
 }
