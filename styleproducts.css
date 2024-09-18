@@ -10,20 +10,21 @@ nav {
     height: 5vh; 
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    border-bottom: 1px solid #ddd; 
+    align-items: center; 
+}
+
+p {
+color: rgb(82, 82, 82);
 }
 
 #banner {
     width: 100vw;
     height: 45vh;
-    border: 1px solid #ddd;
 }
 
 .categorias {
     width: 20vw;
     height: 100vh;
-    border-right: 1px solid #ddd;
     display: flex;
     flex-direction: column;
     padding: 10px; 
@@ -52,6 +53,7 @@ nav {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
 }
 
 #buscar {
@@ -59,7 +61,6 @@ nav {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 1px solid black;
     height: 50px;
     color: #f86779;
     margin-bottom: 20px; /
@@ -67,27 +68,24 @@ nav {
 
 .barrabuscar {
     border-radius: 25px;
-    width: 300px;
-    height: 30px;
+    width: 500px;
+    height: 50px;
     border: 3px solid #f86779;
 }
 
 .productoindividual {
     width: 300px;
     height: 175px;  
-    border: 1px solid black;
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 10px;
-    box-sizing: border-box; 
-    background-color: #fff; 
+    box-sizing: border-box;  
 }
 
 .imagenes {
     width: 175px;
     height: 175px;
-    border: 1px solid black;
     border-radius: 20px;
     overflow: hidden; 
 }
@@ -111,6 +109,5 @@ nav {
 #cajamadre {
     display: flex;
     width: 100vw;
-    height: 100vh;
-    border: 1px solid red; 
+    height: 100vh; 
 }
